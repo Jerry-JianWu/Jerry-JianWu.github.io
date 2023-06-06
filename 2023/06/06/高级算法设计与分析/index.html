@@ -6,13 +6,123 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
+  <meta name="description" content="算法课程主要内容及有关概念算法基础知识算法研究内容 计算复杂性理论：货郎问题，背包问题，双机调度问题 问题复杂度概念：排序问题 算法设计与分析：调度问题，投资问题 算法的伪码表示 几类重要函数的性质 有关函数渐近的界的定理 时间复杂度函数的表示：函数渐近的界 算法及其时间复杂度的定义  货郎问题与计算复杂性理论货郎问题问题描述：有n 个城市，已知任两个城市之间的距离。求一条每个城市恰好经过一次的回">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2023/06/06/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="算法课程主要内容及有关概念算法基础知识算法研究内容 计算复杂性理论：货郎问题，背包问题，双机调度问题 问题复杂度概念：排序问题 算法设计与分析：调度问题，投资问题 算法的伪码表示 几类重要函数的性质 有关函数渐近的界的定理 时间复杂度函数的表示：函数渐近的界 算法及其时间复杂度的定义  货郎问题与计算复杂性理论货郎问题问题描述：有n 个城市，已知任两个城市之间的距离。求一条每个城市恰好经过一次的回">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041043245.jpeg">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041044256.jpeg">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041045188.jpeg">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041512469.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041538988.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041539486.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041618651.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041619192.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041628477.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041628160.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041629519.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305042032824.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305050908407.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305050909187.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305050916100.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305050917744.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305050920604.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305050921186.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305050948239.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051010579.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051020705.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051021334.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051021606.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051021346.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051022695.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051022613.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051056258.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051022165.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051110210.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051124451.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051124135.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051125031.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051503095.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051509674.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051512207.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051546838.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051547475.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051557968.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051603096.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051617391.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051641660.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051655956.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051656092.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305051949859.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305060954187.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305060955666.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061105422.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061108653.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061109434.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061421910.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061445777.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061453686.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061453789.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061454788.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061517476.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061520268.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061521445.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061524118.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061525527.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061530662.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061535852.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061548697.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061601190.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061620466.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061620432.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061621550.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061622377.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061623623.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061623585.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061626522.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305061628723.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305080911004.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081006054.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081454018.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081456185.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081031500.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081031362.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081610973.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081616094.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081616023.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081617978.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081617515.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091645912.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081702575.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081703700.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081705149.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081706072.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081706453.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081706310.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305081725551.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091653256.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091653230.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091653299.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091000445.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091013091.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091014514.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091015075.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091620016.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091619290.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091705693.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091720787.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091727900.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091728674.jpeg">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091723334.png">
+<meta property="og:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305091725416.jpeg">
+<meta property="article:published_time" content="2023-06-06T13:41:24.000Z">
+<meta property="article:modified_time" content="2023-06-06T13:41:24.021Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/Jerry-wu-jian/img-load/raw/master/noteImg/202305041043245.jpeg">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -71,9 +181,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-高级算法设计与分析" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-高级算法设计与分析" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/06/06/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/" class="article-date">
   <time class="dt-published" datetime="2023-06-06T13:41:24.000Z" itemprop="datePublished">2023-06-06</time>
@@ -832,62 +940,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/06/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2023-06-06T11:53:10.368Z" itemprop="datePublished">2023-06-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/06/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2023/06/06/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/06/hello-world/" data-id="clikclvx00000p3mm5yfe5zw9" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
